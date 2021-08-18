@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+        
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="MyProgram/newcss.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        
+        
+    </head>
+    <body>
+        <h1 id="Heading1"> CURRENCY CONVERTER </h1>
+       
+        <div id="Main">
+            
+        
+        
+        <div id ="Header">
+            <div id="defaultfrom">1 GBP</div>
+            <div id="defaultto">~ 1.18 EUR</div>
+    
+        </div>
+        
+       <BR>
+       <div > <input type ="text" id="first" value="1" placeholder="Amount" oninput="calc();" />  </div>
+        <br>
+    <div id ="Currencylist">
+       
+        
+        <select id ="from" onchange="calc();">
+            <option value="GBP"  selected>Pound sterling</option>
+            <option value="USD" >US dollar</option>
+            <option value="EUR" >Euro</option>
+            <option value="CHF" >Swiss Franc</option>
+            <option value="CAD" >Canadian Dollar</option>
+            <option value="JYP" >Japanese Yang</option>
+            <option value="INR" >Indian Rupees</option>
+    </select> 
+    
+        
+     <!--    <button onclick="swapcurrency();" id="Button"> </button>-->
+         
+             <a href="#" onclick="swapcurrency();"><span>REVERSE</span></a>
+         
+         
+         
+ 
+ <select id ="to" onchange="calc();">
+        <option value="GBP">Pound sterling</option>
+        <option value="USD">US dollar</option>
+        <option value="EUR" selected>Euro</option>
+        <option value="CHF">Swiss Franc</option>
+        <option value="CAD">Canadian Dollar</option>
+        <option value="JYP">Japanese Yang</option>
+        <option value="INR">Indian Rupees</option>
+    </select> </div>
+       
+      
+       <!-- <button onclick="calc();" id="Button">CALCULATE</button>  onblur="calc();" 
+       <a href="C:\Users\georg\OneDrive\Desktop\file2.csv" id="links"></a>
+       -->
+ 
+  
+
+       <p id="demo"></p>
+
+       
+<script src="MyProgram/Currencycalc.js" type="text/javascript"></script>
+ </div>
+    </body>
+</html>
