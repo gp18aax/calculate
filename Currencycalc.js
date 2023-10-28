@@ -12,7 +12,7 @@ function calc(){
     }
     
    if(isNaN(amount)){
-     alert("Amount Should be a number");
+     alert("Amount has to be a number");
      amount = document.getElementById('first').value = 1;
  }
     
